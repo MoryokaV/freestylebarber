@@ -25,18 +25,20 @@ export default function Hero() {
           opposed to using 'Content here, content here', making it look like readable English.
         </p>
         <div className="flex justify-between gap-4">
-          <button className="bg-efGreenBright hover:bg-efGreen transition rounded px-5 py-2 font-medium">
-            Programare online
-          </button>
-          <button className="border-2 border-slate-400 hover:bg-slate-400 transition hover:text-black rounded px-5 py-2 font-medium">
+          <a href="tel:+40736743002">
+            <button className="bg-efGreenBright border-2 border-efGreenBright hover:border-efGreen hover:bg-efGreen transition rounded px-5 py-2 font-medium">
+              Programează-te acum 
+            </button>
+          </a>
+          <button className="border-2 border-slate-300 hover:bg-slate-300 transition hover:text-black rounded px-5 py-2 font-medium">
             Află mai multe
           </button>
         </div>
       </div>
       <div className="w-1/2 relative" style={{ height: '512px' }}>
         <StackedImage src={hero_bg1} />
-        <StackedImage src={hero_bg2} className="rotate-6 brightness-75 -z-10" />
-        <StackedImage src={hero_bg3} className="rotate-12 brightness-50 -z-20" />
+        <StackedImage src={hero_bg2} className="rotate-[10deg] brightness-75 -z-10" />
+        <StackedImage src={hero_bg3} className="rotate-[20deg] brightness-50 -z-20" />
       </div>
     </section>
   )

@@ -1,22 +1,42 @@
-import { SlMustache } from 'react-icons/sl'
 import Image from 'next/image'
 
 import hero_bg1 from '../public/assets/hero-img2.jpg'
 import hero_bg2 from '../public/assets/hero-img3.jpg'
+import avatar1 from '../public/assets/avatar1.jpg'
+import avatar2 from '../public/assets/avatar2.jpg'
+import signature1 from '../public/assets/signature1.png'
+import signature2 from '../public/assets/signature2.png'
+import SectionTitle from './section_title'
+
+const SignatureImage = ({img}) => (
+  <Image src={img} alt="barber signature" width="75"/>
+)
+
+const ProfilePicture = ({img}) => (
+  <Image src={img} alt="barber profile picture" className="rounded-full flex-grow-0" height="300"/>
+)
+
+const BarberCard = ({text, name, profile_img, signature_img, pos}) => {
+  return (
+    <div className={`mx-auto p-3 shadow max-w-3xl flex bg-white/5 rounded-full mb-4 gap-6 ${pos == 1 && "rounded-br-none"} ${pos == 2 && "rounded-tl-none"}`}>
+      {pos == 1 && <ProfilePicture img={profile_img}/>}
+      <div className={`${pos == 1 && "pr-14"} ${pos == 2 && "pl-14"}`}>
+        <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">{name}</h4>
+        <p className="opacity-60 mb-4">"{text}"</p>
+        <SignatureImage img={signature_img}/>
+      </div>
+      {pos == 2 && <ProfilePicture img={profile_img}/>}
+    </div>
+  )
+}
 
 const About = () => {
   return (
-    <section id="about" className="w-100 bg-[#1a1a1a] px-8 py-6 h-[500px]">
+    <section id="about" className="w-100 bg-bodyBgAccent px-8 py-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-10">
-          <h3 className="text-xl font-medium uppercase">Despre noi</h3>
-          <div class="flex items-center justify-center gap-2">
-            <div className="h-[1px] bg-zinc-600 w-14"></div>
-            <SlMustache className="text-amber-600" size="1.5em" />
-            <div className="h-[1px] bg-zinc-600 w-14"></div>
-          </div>
-        </div>
-        <div class="flex items-start justify-start gap-8">
+        <SectionTitle title="Despre noi" width="w-14" />
+
+        <div class="flex items-start justify-start gap-8 mb-12">
           <div class="w-1/3">
             <h6 class="text-efGreenBright tracking-widest font-medium text-lg mb-1">Bine ai venit!</h6>
             <h4 class="tracking-wide font-bold text-xl uppercase mb-4">Noi suntem Freestyle Barber E/F</h4>
@@ -36,36 +56,53 @@ const About = () => {
             <div className="flex flex-col gap-1">
               <div className="flex justify-between">
                 <p className="opacity-70">Luni</p>
-                <p className="text-amber-600">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 19.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Marți</p>
-                <p className="text-amber-600">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 19.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Miercuri</p>
-                <p className="text-amber-600">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 19.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Joi</p>
-                <p className="text-amber-600">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 19.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Vineri</p>
-                <p className="text-amber-600">09.00 - 18.00</p>
+                <p className="text-efAmber">09.00 - 18.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Sâmbătă</p>
-                <p className="text-amber-600">09.00 - 14.00</p>
+                <p className="text-efAmber">09.00 - 14.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Dumincă</p>
-                <p className="text-amber-600">Închis</p>
+                <p className="text-efAmber">Închis</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <SectionTitle title="Artiștii noștrii" width="w-20" />
+
+      <BarberCard 
+        profile_img={avatar2}
+        signature_img={signature2}
+        pos={1}
+        name="Elena Țocu"
+        text="Nunc hendrerit rutrum ornare. Sed sit amet tincidunt turpis, non molestie purus. Sed non turpis non libero pulvinar efficitur. Quisque eget magna varius, dictum ex a, eleifend ipsum. Donec in gravida purus. Suspendisse eu ornare dui. Sed varius Nunc eros est, mollis et suscipit non"
+      />
+      <BarberCard
+        profile_img={avatar1}
+        signature_img={signature1}
+        name="Fahed Twit"
+        pos={2}
+        text="Nulla aliquam turpis ut enim finibus vestibulum. Ut auctor, elit eu iaculis porttitor, nisi mauris dictum dolor, at porttitor sem enim lacinia urna. Donec ex tortor, iaculis a odio a, consequat eleifend mi. Donec lobortis, massa nec mollis ultri libero nisl "
+      />
     </section>
   )
 }

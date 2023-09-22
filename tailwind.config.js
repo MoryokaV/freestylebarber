@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         "efGreen": '#256224',
         "efGreenBright": '#389738',
-        "bodyBg": "#121212"
+        "bodyBg": "#121212",
+        "bodyBgAccent": "#1a1a1a",
+        "efAmber": "#d97706"
       },
     }
   },
