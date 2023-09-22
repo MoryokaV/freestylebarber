@@ -10,6 +10,7 @@ const StackedImage = ({ src, className }) => {
       src={src}
       className={`absolute max-h-[500px] left-1/2 -translate-x-1/2 mx-auto border-zinc-200 border-4 ${className}`}
       width="350"
+      alt="ef image"
     />
   )
 }
@@ -27,7 +28,7 @@ export default function Hero() {
         <div className="flex justify-between gap-4">
           <a href="tel:+40736743002">
             <button className="bg-efGreenBright border-2 border-efGreenBright hover:border-efGreen hover:bg-efGreen transition rounded px-5 py-2 font-medium">
-              Programează-te acum 
+              Programează-te acum
             </button>
           </a>
           <button className="border-2 border-slate-300 hover:bg-slate-300 transition hover:text-black rounded px-5 py-2 font-medium">
