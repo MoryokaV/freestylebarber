@@ -26,7 +26,7 @@ const Offer = () => {
         <div>
           <Item title="Tuns barbă" price="20.00" description="Redă contur feței" />
           <Item title="Vopsit barbă" price="20.00" description="Cu produse de cea mai înaltă calitate" />
-          <Item title="Șuvițe" price="20.00" description="Materiale premium și proceduri de top" />
+          <Item title="Șuvițe" price="80.00" description="Materiale premium și proceduri de top" />
           <Item title="Tuns damă" price="45.00" description="Volum, formă, stil" />
         </div>
         <div>
