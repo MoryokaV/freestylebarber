@@ -3,7 +3,7 @@ import Image from 'next/image'
 import hero_bg1 from '../public/assets/hero-img2.jpg'
 import hero_bg2 from '../public/assets/hero-img3.jpg'
 import avatar1 from '../public/assets/avatar1.jpg'
-import avatar2 from '../public/assets/avatar2.jpg'
+import avatar2 from '../public/assets/elena.jpg'
 import signature1 from '../public/assets/signature1.png'
 import signature2 from '../public/assets/signature2.png'
 import SectionTitle from './section_title'
@@ -58,19 +58,19 @@ const About = () => {
             <div className="flex flex-col gap-1">
               <div className="flex justify-between">
                 <p className="opacity-70">Luni</p>
-                <p className="text-efAmber">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 18.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Marți</p>
-                <p className="text-efAmber">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 18.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Miercuri</p>
-                <p className="text-efAmber">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 18.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Joi</p>
-                <p className="text-efAmber">09.00 - 19.00</p>
+                <p className="text-efAmber">09.00 - 18.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Vineri</p>
@@ -78,7 +78,7 @@ const About = () => {
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Sâmbătă</p>
-                <p className="text-efAmber">09.00 - 14.00</p>
+                <p className="text-efAmber">09.00 - 16.00</p>
               </div>
               <div className="flex justify-between">
                 <p className="opacity-70">Dumincă</p>
