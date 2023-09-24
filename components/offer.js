@@ -29,7 +29,7 @@ const Offer = () => {
           <Item title="Șuvițe" price="80.00" description="Materiale premium și proceduri de top" />
           <Item title="Tuns damă" price="45.00" description="Volum, formă, stil" />
         </div>
-        <div>
+        <div className="col-span-1 md:col-span-2 lg:col-span-1">
           <Item title="Spălat damă" price="40.00" description="Pentru îngrijirea atentă a părului tău" />
           <Item title="Aranjat" price="40.00" description="Periat si uscat cu feon" />
           <Item title="Vopsit balayage" price="200/250" description="Păr damă mediu/lung" />

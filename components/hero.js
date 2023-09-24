@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import hero_bg1 from '../public/assets/hero-img1.jpg'
 import hero_bg2 from '../public/assets/hero-img2.jpg'
@@ -26,11 +27,11 @@ export default function Hero() {
           opposed to using 'Content here, content here', making it look like readable English.
         </p>
         <div className="flex justify-between gap-4">
-          <a href="tel:+40736743002">
+          <Link href="tel:+40736743002">
             <button className="bg-efGreenBright border-2 border-efGreenBright hover:border-efGreen hover:bg-efGreen transition rounded px-5 py-2 font-medium">
               Programează-te acum
             </button>
-          </a>
+          </Link>
           <button className="border-2 border-slate-300 hover:bg-slate-300 transition hover:text-black rounded px-5 py-2 font-medium">
             Află mai multe
           </button>

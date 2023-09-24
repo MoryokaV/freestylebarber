@@ -3,6 +3,7 @@ import Navbar from 'components/navbar'
 import Hero from 'components/hero'
 import About from 'components/about'
 import Offer from 'components/offer'
+import Gallery from 'components/gallery'
 import Footer from 'components/footer'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       <About />
       <Offer />
+      <Gallery />
 
       <Footer />
     </>
