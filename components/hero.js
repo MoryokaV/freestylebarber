@@ -18,7 +18,7 @@ const StackedImage = ({ src, className }) => {
 
 export default function Hero() {
   return (
-    <section className="mx-auto max-w-7xl flex px-6 py-12">
+    <section className="mx-auto max-w-7xl flex flex-col md:flex-row px-6 py-12">
       <div className="flex flex-col items-start justify-center w-1/2">
         <h1 className="font-bold text-5xl uppercase mb-4 leading-tight">CREEAZĂ-ȚI PROPRIUL STIL ALĂTURI DE NOI</h1>
         <p className="mb-8">

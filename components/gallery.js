@@ -6,7 +6,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 
 import gallery_img1 from 'public/assets/gallery/gallery1.jpg'
-import gallery_img2 from 'public/assets/gallery/gallery2.JPG'
+import gallery_img2 from 'public/assets/gallery/gallery2.jpg'
 import gallery_img3 from 'public/assets/gallery/gallery3.JPG'
 import gallery_img4 from 'public/assets/gallery/gallery4.jpg'
 import gallery_img6 from 'public/assets/gallery/gallery6.JPG'
@@ -55,7 +55,7 @@ const Carousel = ({ children, autoplay = true, autoplayInterval = 3000 }) => {
   }, [index])
 
   return (
-    <div className="overflow-hidden relative rounded h-[800px]">
+    <div className="overflow-hidden relative rounded h-[800px] bg-bodyBgAccent">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${index * 100}%)` }}
@@ -74,6 +74,7 @@ const Carousel = ({ children, autoplay = true, autoplayInterval = 3000 }) => {
         <div className="flex items-center justify-center gap-2">
           {slides.map((_, i) => (
             <div
+              key={i}
               className={`transition-all w-2 h-2 bg-white rounded-full ${i === index ? 'p-1.5' : 'bg-opacity-50'}`}
             ></div>
           ))}
@@ -89,7 +90,7 @@ const Gallery = () => {
       <SectionTitle title="STILUL TĂU" width="w-16" />
       <Carousel>
         {slides.map((slide, index) => (
-          <NextImage src={slide} alt={`gallery image ${index}`} key={index} style={{ objectFit: 'cover' }} />
+          <NextImage src={slide} alt={`gallery image ${index}`} key={index} style={{ objectFit: 'contain' }} />
         ))}
       </Carousel>
       <Link href="https://www.instagram.com/freestyle_barber.ef" target="_blank">

@@ -3,7 +3,7 @@ import Link from 'next/link'
 const NavLink = ({ children, href }) => (
   <Link
     href={href}
-    className="font-bold text-slate-300 hover:text-current hover:underline underline-offset-2 decoration-2 decoration-efGreenBright"
+    className="font-thing text-slate-300 hover:text-current hover:underline underline-offset-2 decoration-2 decoration-efGreenBright"
   >
     {children}
   </Link>
