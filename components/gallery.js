@@ -93,7 +93,7 @@ const Gallery = () => {
         <Carousel>
           {slides.map((slide, index) => (
             <PhotoView src={slide.src} key={index}>
-              <img src={slide.src} alt={`gallery image ${index}`} key={index} style={{ objectFit: 'contain' }} />
+              <NextImage src={slide} alt={`gallery image ${index}`} key={index} style={{ objectFit: 'contain' }} />
             </PhotoView>
           ))}
         </Carousel>
