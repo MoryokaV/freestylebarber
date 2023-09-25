@@ -15,8 +15,8 @@ import gallery_img9 from 'public/assets/gallery/gallery9.JPG'
 import gallery_img10 from 'public/assets/gallery/gallery10.jpg'
 import gallery_img11 from 'public/assets/gallery/gallery11.JPG'
 
-import 'react-photo-view/dist/react-photo-view.css';
-import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css'
+import { PhotoProvider, PhotoView } from 'react-photo-view'
 
 const slides = [
   gallery_img1,
@@ -41,7 +41,7 @@ const CarouselButton = ({ children, onClick }) => {
   )
 }
 
-const Carousel = ({ children, autoplay = true, autoplayInterval = 3000 }) => {
+const Carousel = ({ children, autoplay = true, autoplayInterval = 4000 }) => {
   const [index, setIndex] = useState(0)
 
   const prev = () => setIndex(index === 0 ? slides.length - 1 : index - 1)
@@ -58,7 +58,7 @@ const Carousel = ({ children, autoplay = true, autoplayInterval = 3000 }) => {
   return (
     <div className="overflow-hidden relative rounded h-[490px] sm:h-[85vh] min-h-[400px] bg-bodyBgAccent">
       <div
-        className="flex h-full items-center transition-transform ease-out duration-500"
+        className="flex h-full items-center transition-transform ease-out duration-700"
         style={{ transform: `translateX(-${index * 100}%)` }}
       >
         {children}
@@ -89,10 +89,7 @@ const Gallery = () => {
   return (
     <section className="max-w-xl mx-auto px-8 pb-6">
       <SectionTitle title="STILUL TĂU" width="w-16" />
-      <PhotoProvider
-      speed={() => 500}
-      easing={(type) => (type === 2 ? "none" : "none")}
-      >
+      <PhotoProvider speed={() => 500} easing={type => (type === 1 ? 'cubic-bezier(0.25, 0.8, 0.25, 1)' : 'linear(0)')}>
         <Carousel>
           {slides.map((slide, index) => (
             <PhotoView src={slide.src} key={index}>
