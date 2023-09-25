@@ -49,8 +49,8 @@ const About = () => {
             </p>
           </div>
           <div className="w-1/3 flex gap-2">
-            <Image src={hero_bg1} className="w-1/2" />
-            <Image src={hero_bg2} className="w-1/2" />
+            <Image src={hero_bg1} className="w-1/2" alt="about-img" />
+            <Image src={hero_bg2} className="w-1/2" alt="about-img" />
           </div>
           <div className="w-1/3">
             <h6 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Te așteptăm</h6>
