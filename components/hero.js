@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import hero_bg1 from '../public/assets/hero-img1.jpg'
-import hero_bg2 from '../public/assets/hero-img2.jpg'
+import hero_img2 from '../public/assets/gallery/gallery2.jpg'
 import hero_bg3 from '../public/assets/hero-img3.jpg'
 
 const StackedImage = ({ src, className }) => {
@@ -39,7 +39,7 @@ export default function Hero() {
       </div>
       <div className="w-1/2 relative" style={{ height: '512px' }}>
         <StackedImage src={hero_bg1} />
-        <StackedImage src={hero_bg2} className="rotate-[10deg] brightness-75 -z-10" />
+        <StackedImage src={hero_img2} className="rotate-[10deg] brightness-75 -z-10" />
         <StackedImage src={hero_bg3} className="rotate-[20deg] brightness-50 -z-20" />
       </div>
     </section>
