@@ -3,7 +3,7 @@ import SectionTitle from './section_title'
 import NextImage from 'next/image'
 import Link from 'next/link'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
-import { BsInstagram } from 'react-icons/bs'
+import { BsInstagram, BsStarFill } from 'react-icons/bs'
 
 import gallery_img1 from 'public/assets/gallery/gallery1.jpg'
 import gallery_img3 from 'public/assets/gallery/gallery3.JPG'
@@ -17,6 +17,8 @@ import gallery_img11 from 'public/assets/gallery/gallery11.JPG'
 
 import 'react-photo-view/dist/react-photo-view.css'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
+
+const reviewsUrl = "https://www.google.ro/maps/place/Freestyle+Barber+EF/@45.2671808,27.9696536,17z/data=!4m8!3m7!1s0x40b72971188fe8d5:0x453e45916ea0d0cc!8m2!3d45.2671808!4d27.9722285!9m1!1b1!16s%2Fg%2F11vbklgdt2?entry=ttu"
 
 const slides = [
   gallery_img1,
@@ -89,6 +91,24 @@ const Gallery = () => {
   return (
     <section className="max-w-xl mx-auto px-8 pb-6">
       <SectionTitle title="STILUL TĂU" width="w-16" />
+
+      <div className="flex items-center justify-center mb-4 gap-2">
+        <BsStarFill color="#fcc419" size="20"/>
+        <BsStarFill color="#fcc419" size="20"/>
+        <BsStarFill color="#fcc419" size="20"/>
+        <BsStarFill color="#fcc419" size="20"/>
+        <BsStarFill color="#fcc419" size="20"/>
+        <span className="opacity-60 text-md">{' '}(5.0) pe </span>
+        <Link href={reviewsUrl} target="_blank" className="hover:scale-105 transition-all decoration-efAmber underline-offset-2 text-xl">
+          <span className="text-blue-500">G</span>
+          <span className="text-red-500">o</span>
+          <span className="text-yellow-500">o</span>
+          <span className="text-blue-500">g</span>
+          <span className="text-green-500">l</span>
+          <span className="text-red-500">e</span>
+          <span className="opacity-80">{' '}Reviews</span>
+        </Link>
+      </div>
       <PhotoProvider speed={() => 500} easing={type => (type === 1 ? 'cubic-bezier(0.25, 0.8, 0.25, 1)' : 'linear(0)')}>
         <Carousel>
           {slides.map((slide, index) => (
@@ -101,7 +121,7 @@ const Gallery = () => {
       <Link href="https://www.instagram.com/freestyle_barber.ef" target="_blank">
         <button className="mx-auto flex items-center gap-2 bg-efGreenBright hover:bg-efGreen transition rounded px-4 py-2 my-4 uppercase font-medium">
           <BsInstagram />
-          <span>Follow on instagram</span>
+          <span>Follow pe Instagram</span>
         </button>
       </Link>
     </section>

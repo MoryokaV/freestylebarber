@@ -8,7 +8,8 @@ module.exports = {
         "efGreenBright": '#389738',
         "bodyBg": "#121212",
         "bodyBgAccent": "#1a1a1a",
-        "efAmber": "#d97706"
+        "efAmber": "#d97706",
+        "starYellow": "#ffd43b"
       },
     }
   },
