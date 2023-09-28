@@ -8,28 +8,33 @@ import { BsInstagram, BsStarFill } from 'react-icons/bs'
 import gallery_img1 from 'public/assets/gallery/gallery1.jpg'
 import gallery_img3 from 'public/assets/gallery/gallery3.JPG'
 import gallery_img4 from 'public/assets/gallery/gallery4.jpg'
+import gallery_img5 from 'public/assets/gallery/gallery5.jpg'
 import gallery_img6 from 'public/assets/gallery/gallery6.JPG'
 import gallery_img7 from 'public/assets/gallery/gallery7.jpg'
 import gallery_img8 from 'public/assets/gallery/gallery8.jpg'
 import gallery_img9 from 'public/assets/gallery/gallery9.JPG'
 import gallery_img10 from 'public/assets/gallery/gallery10.jpg'
 import gallery_img11 from 'public/assets/gallery/gallery11.JPG'
+import gallery_img12 from 'public/assets/gallery/gallery12.jpg'
 
 import 'react-photo-view/dist/react-photo-view.css'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 
-const reviewsUrl = "https://www.google.ro/maps/place/Freestyle+Barber+EF/@45.2671808,27.9696536,17z/data=!4m8!3m7!1s0x40b72971188fe8d5:0x453e45916ea0d0cc!8m2!3d45.2671808!4d27.9722285!9m1!1b1!16s%2Fg%2F11vbklgdt2?entry=ttu"
+const reviewsUrl =
+  'https://www.google.ro/maps/place/Freestyle+Barber+EF/@45.2671808,27.9696536,17z/data=!4m8!3m7!1s0x40b72971188fe8d5:0x453e45916ea0d0cc!8m2!3d45.2671808!4d27.9722285!9m1!1b1!16s%2Fg%2F11vbklgdt2?entry=ttu'
 
 const slides = [
   gallery_img1,
   gallery_img3,
   gallery_img4,
+  gallery_img5,
   gallery_img6,
   gallery_img7,
   gallery_img8,
   gallery_img9,
   gallery_img10,
-  gallery_img11
+  gallery_img11,
+  gallery_img12
 ]
 
 const CarouselButton = ({ children, onClick }) => {
@@ -93,20 +98,24 @@ const Gallery = () => {
       <SectionTitle title="STILUL TĂU" width="w-16" />
 
       <div className="flex items-center justify-center mb-4 gap-2">
-        <BsStarFill color="#fcc419" size="20"/>
-        <BsStarFill color="#fcc419" size="20"/>
-        <BsStarFill color="#fcc419" size="20"/>
-        <BsStarFill color="#fcc419" size="20"/>
-        <BsStarFill color="#fcc419" size="20"/>
-        <span className="opacity-60 text-md">{' '}(5.0) pe </span>
-        <Link href={reviewsUrl} target="_blank" className="hover:scale-105 transition-all decoration-efAmber underline-offset-2 text-xl">
+        <BsStarFill color="#fcc419" size="20" />
+        <BsStarFill color="#fcc419" size="20" />
+        <BsStarFill color="#fcc419" size="20" />
+        <BsStarFill color="#fcc419" size="20" />
+        <BsStarFill color="#fcc419" size="20" />
+        <span className="opacity-60 text-md"> (5.0) pe </span>
+        <Link
+          href={reviewsUrl}
+          target="_blank"
+          className="hover:scale-105 transition-all decoration-efAmber underline-offset-2 text-xl"
+        >
           <span className="text-blue-500">G</span>
           <span className="text-red-500">o</span>
           <span className="text-yellow-500">o</span>
           <span className="text-blue-500">g</span>
           <span className="text-green-500">l</span>
           <span className="text-red-500">e</span>
-          <span className="opacity-80">{' '}Reviews</span>
+          <span className="opacity-80"> Reviews</span>
         </Link>
       </div>
       <PhotoProvider speed={() => 500} easing={type => (type === 1 ? 'cubic-bezier(0.25, 0.8, 0.25, 1)' : 'linear(0)')}>
