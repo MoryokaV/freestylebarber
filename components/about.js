@@ -96,7 +96,7 @@ const About = () => {
         signature_img={signature2}
         pos={1}
         name="Elena Țocu"
-        text="Sed non turpis non libero pulvinar efficitur. Quisque eget magna varius, dictum ex a, eleifend ipsum. Donec in gravida purus. Suspendisse eu ornare dui. Sed varius Nunc eros est, mollis et suscipit non"
+        text="Am 25 de ani și lucrez în domeniul înfrumusețării de 5 ani, prestând servicii atat pentru bărbați cât și pentru femei. Am participat de-a lungul carierei mele la numeroase seminarii, punând calitatea pe primul loc în fața clienților. Devotamentul și pasiunea sunt cele care m-au adus în punctul în care sunt astăzi."
       />
       <BarberCard
         profile_img={avatar1}
