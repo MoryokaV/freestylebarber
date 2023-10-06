@@ -19,7 +19,7 @@ const StackedImage = ({ src, className }) => {
 export default function Hero() {
   return (
     <section className="mx-auto max-w-7xl flex flex-col md:flex-row px-6 py-12">
-      <div className="flex flex-col items-start justify-center w-1/2">
+      <div className="flex flex-col items-start justify-center sm:w-5/6 md:w-1/2 mx-auto">
         <h1 className="font-bold text-5xl uppercase mb-4 leading-tight">CREEAZĂ-ȚI PROPRIUL STIL ALĂTURI DE NOI</h1>
         <p className="mb-8">
           Un barber shop <strong>diferit</strong>. Denumirea <em>"Freestyle Barber"</em> ne caracterizează perfect prin stilul nostru aparte de lucru. Atenția la detalii conduce către rezultate remarcabile, făcându-i pe clienții noștrii să iasă în evidență.
@@ -37,7 +37,7 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="w-1/2 relative" style={{ height: '512px' }}>
+      <div className="mx-auto max-md:mt-20 sm:w-1/2 relative" style={{ height: '512px' }}>
         <StackedImage src={hero_bg1} />
         <StackedImage src={hero_img2} className="rotate-[10deg] brightness-75 -z-10" />
         <StackedImage src={hero_bg3} className="rotate-[20deg] brightness-50 -z-20" />
