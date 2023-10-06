@@ -103,11 +103,11 @@ const Gallery = () => {
         <BsStarFill color="#fcc419" size="20" />
         <BsStarFill color="#fcc419" size="20" />
         <BsStarFill color="#fcc419" size="20" />
-        <span className="opacity-60 text-md"> (5.0) pe </span>
+        <span className="opacity-60 text-md flex-shrink-0"> (5.0) pe </span>
         <Link
           href={reviewsUrl}
           target="_blank"
-          className="hover:scale-105 transition-all decoration-efAmber underline-offset-2 text-xl"
+          className="flex-shrink-0 hover:scale-105 transition-all decoration-efAmber underline-offset-2 text-xl"
         >
           <span className="text-blue-500">G</span>
           <span className="text-red-500">o</span>
