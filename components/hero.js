@@ -22,9 +22,7 @@ export default function Hero() {
       <div className="flex flex-col items-start justify-center w-1/2">
         <h1 className="font-bold text-5xl uppercase mb-4 leading-tight">CREEAZĂ-ȚI PROPRIUL STIL ALĂTURI DE NOI</h1>
         <p className="mb-8">
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking
-          at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-          opposed to using 'Content here, content here', making it look like readable English.
+          Un barber shop <strong>diferit</strong>. Denumirea <em>"Freestyle Barber"</em> ne caracterizează perfect prin stilul nostru aparte de lucru. Atenția la detalii conduce către rezultate remarcabile, făcându-i pe clienții noștrii să iasă în evidență.
         </p>
         <div className="flex justify-between gap-4">
           <Link href="tel:+40737506495">

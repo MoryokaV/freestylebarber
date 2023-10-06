@@ -43,9 +43,7 @@ const About = () => {
             <h6 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Bine ai venit!</h6>
             <h4 className="tracking-wide font-bold text-xl uppercase mb-4">Noi suntem Freestyle Barber E/F</h4>
             <p className="opacity-70">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nulla massa, eleifend quis laoreet vitae,
-              euismod quis sem. Vestibulum ac dapibus orci. Phasellus eu pretium neque. Quisque varius mi sed convallis
-              dapibus. Nam sed lectus tincidunt, lacinia massa quis, gravida ligula. Aliquam erat volutpat.
+              Dedicat atât pentru "el" cât și pentru "ea". Căutăm să fim mereu în pas cu ultimele tendințe prin gama noastră largă de servicii. Te așteptăm în salonul nostru modern pentru orice tip de tunosare. Chiar dacă suntem un <em>barber shop</em>, satisfacem toate cerințele doamnelor și domnișoarelor. 
             </p>
           </div>
           <div className="w-1/3 flex gap-2">
@@ -103,7 +101,7 @@ const About = () => {
         signature_img={signature1}
         name="Fahed Twit"
         pos={2}
-        text="Nulla aliquam turpis ut enim finibus vestibulum. Ut auctor, elit eu iaculis porttitor, nisi mauris dictum dolor, at porttitor sem enim lacinia urna. Donec ex tortor, iaculis a odio a, consequat eleifend mi. Donec lobortis, massa nec mollis ultri libero nisl "
+        text="24 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat, învățat și autodepasit, dar călătoria cunoașterii nu se va opri prea curând. Îmi propun sa aduc un nou stil in domeniu, sa dau o notă de originalite muncii mele."
       />
     </section>
   )
