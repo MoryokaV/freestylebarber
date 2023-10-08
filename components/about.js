@@ -14,24 +14,6 @@ const ProfilePicture = ({ img }) => (
   <Image src={img} alt="barber profile picture" className="rounded-full flex-grow-0" height="300" />
 )
 
-const BarberCard = ({ text, name, profile_img, signature_img, pos }) => {
-  return (
-    <div
-      className={`mx-auto p-3 shadow max-w-3xl flex bg-white/5 rounded-full mb-4 gap-6 ${
-        pos == 1 && 'rounded-br-none'
-      } ${pos == 2 && 'rounded-tl-none'}`}
-    >
-      {pos == 1 && <ProfilePicture img={profile_img} />}
-      <div className={`${pos == 1 && 'pr-14'} ${pos == 2 && 'pl-14'}`}>
-        <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">{name}</h4>
-        <p className="opacity-60 mb-4">"{text}"</p>
-        <SignatureImage img={signature_img} />
-      </div>
-      {pos == 2 && <ProfilePicture img={profile_img} />}
-    </div>
-  )
-}
-
 const About = () => {
   return (
     <section id="about" className="w-100 bg-bodyBgAccent px-8 py-6">
