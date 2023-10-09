@@ -34,7 +34,7 @@ export default function Hero() {
   }, [stackIndex])
 
   return (
-    <section className="mx-auto max-w-7xl flex flex-col gap-4 md:flex-row px-6 py-6 md:py-12">
+    <section className="mx-auto max-w-7xl flex flex-col gap-4 md:flex-row px-6 py-6 md:py-12 overflow-hidden">
       <div className="flex flex-col items-start justify-center sm:w-5/6 md:w-1/2 mx-auto">
         <h1 className="font-bold text-5xl uppercase mb-4 leading-tight">CREEAZĂ-ȚI PROPRIUL STIL ALĂTURI DE NOI</h1>
         <p className="mb-8">
