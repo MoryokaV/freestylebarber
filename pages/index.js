@@ -5,6 +5,7 @@ import About from 'components/about'
 import Offer from 'components/offer'
 import Gallery from 'components/gallery'
 import Footer from 'components/footer'
+import Contact from '@/components/contact'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <About />
       <Offer />
       <Gallery />
+      <Contact />
 
       <Footer />
     </>

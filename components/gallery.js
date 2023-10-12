@@ -127,8 +127,8 @@ const Gallery = () => {
           ))}
         </Carousel>
       </PhotoProvider>
-      <Link href="https://www.instagram.com/freestyle_barber.ef" target="_blank">
-        <button className="mx-auto flex items-center gap-2 bg-efGreenBright hover:bg-efGreen transition rounded-lg rounded-br-none rounded-tl-[1px] px-4 py-2 my-4 uppercase font-medium">
+      <Link href="https://www.instagram.com/freestyle_barber.ef" target="_blank" className="table mx-auto">
+        <button className="flex items-center gap-2 bg-efGreenBright hover:bg-efGreen transition rounded-lg rounded-br-none rounded-tl-[1px] px-4 py-2 my-4 uppercase font-medium">
           <BsInstagram />
           <span>Follow pe Instagram</span>
         </button>
