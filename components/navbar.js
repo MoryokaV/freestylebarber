@@ -75,7 +75,7 @@ const Navbar = () => {
       <NavLink href="#">Acasă</NavLink>
       <NavLink href="#about">Despre</NavLink>
 
-      <Image src={logo} width="150" />
+      <Image src={logo} width="150" alt="business logo" />
 
       <NavLink href="#services">Servicii</NavLink>
       <NavLink href="#contact">Contact</NavLink>
