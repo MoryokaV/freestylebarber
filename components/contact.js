@@ -71,6 +71,7 @@ const Contact = () => {
                   <Link
                     href="https://www.instagram.com/elena_tocu_/"
                     className="hover:underline underline-offset-2 hover:text-efGreenBright transition"
+                    target="_blank"
                   >
                     @elena_tocu_
                   </Link>
@@ -80,6 +81,7 @@ const Contact = () => {
                   <Link
                     href="https://www.instagram.com/twit_fahed/"
                     className="hover:underline underline-offset-2 hover:text-efGreenBright transition"
+                    target="_blank"
                   >
                     @twit_fahed
                   </Link>
