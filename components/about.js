@@ -3,7 +3,7 @@ import SectionTitle from './section_title'
 
 import hero_bg1 from '../public/assets/hero-img2.jpg'
 import hero_bg2 from '../public/assets/hero-img3.jpg'
-import avatar1 from '../public/assets/avatar1.jpg'
+import avatar1 from '../public/assets/fahed.jpg'
 import avatar2 from '../public/assets/elena.jpg'
 import signature1 from '../public/assets/signature1.png'
 import signature2 from '../public/assets/signature2.png'
