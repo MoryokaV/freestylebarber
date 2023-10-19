@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import hero_bg1 from '../public/assets/hero-img1.jpg'
-import hero_bg2 from '../public/assets/hero-img2.jpg'
-import hero_bg3 from '../public/assets/hero-img3.jpg'
+import hero_bg2 from '../public/assets/hero-img4.jpg'
+import hero_bg3 from '../public/assets/hero-img5.jpg'
 import { useState, useEffect } from 'react'
 
 const StackedImage = ({ src, className }) => {
@@ -43,7 +43,7 @@ export default function Hero() {
           noștrii să iasă în evidență.
         </p>
         <div className="flex justify-between gap-4">
-          <Link href="tel:+40737506495">
+          <Link href="#contact">
             <button className="bg-efGreenBright border-2 border-efGreenBright hover:border-efGreen hover:bg-efGreen transition rounded-lg rounded-br-[1px] rounded-tl-[1px] px-2 lg:px-5 py-2 font-medium">
               Programează-te acum
             </button>
