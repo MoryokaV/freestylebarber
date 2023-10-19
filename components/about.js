@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import SectionTitle from './section_title'
 
-import hero_bg1 from '../public/assets/hero-img2.jpg'
+import hero_bg1 from '../public/assets/hero-img3.jpg'
 import hero_bg2 from '../public/assets/hero-img6.jpg'
 import avatar1 from '../public/assets/fahed.jpg'
 import avatar2 from '../public/assets/elena.jpg'

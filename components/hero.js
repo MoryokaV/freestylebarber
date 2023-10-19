@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import hero_bg1 from '../public/assets/hero-img1.jpg'
+import hero_bg1 from '../public/assets/hero-img2.jpg'
 import hero_bg2 from '../public/assets/hero-img4.jpg'
 import hero_bg3 from '../public/assets/hero-img5.jpg'
 import { useState, useEffect } from 'react'
