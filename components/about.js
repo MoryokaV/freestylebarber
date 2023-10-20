@@ -90,7 +90,7 @@ const About = () => {
           <div className="max-md:px-6 max-md:mt-2 md:pl-14">
             <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Fahed Twit</h4>
             <p className="opacity-60 mb-4">
-              "24 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat, învățat
+              "25 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat, învățat
               și m-am autodepasit, dar călătoria cunoașterii nu se va opri prea curând. Îmi propun sa aduc un nou stil
               in domeniu, sa dau o notă de originalite muncii mele."
             </p>
