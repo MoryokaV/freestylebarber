@@ -32,7 +32,7 @@ export default function Home() {
           description: "Un barber shop diferit. Pentru 'el' și pentru 'ea'.",
           images: [
             {
-              url: 'http://localhost:3000/api/og', //To Change after deploy
+              url: 'http://localhost:3000/og-logo.jpg', //To Change after deploy
               width: 1200,
               height: 630,
               alt: 'Freestyle Barber EF logo'
