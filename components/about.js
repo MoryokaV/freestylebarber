@@ -26,9 +26,9 @@ const About = () => {
             <h6 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Bine ai venit!</h6>
             <h4 className="tracking-wide font-bold text-xl uppercase mb-4">Noi suntem Freestyle Barber E/F</h4>
             <p className="opacity-70">
-              Dedicat atât pentru <em>"el"</em> cât și pentru <em>"ea"</em>. Căutăm să fim mereu în pas cu ultimele
-              tendințe prin gama noastră largă de servicii. Te așteptăm în salonul nostru modern pentru orice tip de
-              tunosare. Chiar dacă suntem un <em>barber shop</em>, satisfacem toate cerințele doamnelor și
+              Dedicat atât pentru <em>&quot;el&quot;</em> cât și pentru <em>&quot;ea&quot;</em>. Căutăm să fim mereu în
+              pas cu ultimele tendințe prin gama noastră largă de servicii. Te așteptăm în salonul nostru modern pentru
+              orice tip de tunosare. Chiar dacă suntem un <em>barber shop</em>, satisfacem toate cerințele doamnelor și
               domnișoarelor.
             </p>
           </div>
@@ -85,9 +85,10 @@ const About = () => {
           <div className="max-sm:px-6 max-md:mb-2 md:pr-14">
             <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Elena Țocu</h4>
             <p className="opacity-60 mb-4">
-              "Am 25 de ani și lucrez în domeniul înfrumusețării de 5 ani, prestând servicii atat pentru bărbați cât și
-              pentru femei. Am participat de-a lungul carierei mele la numeroase seminarii, punând calitatea pe primul
-              loc în fața clienților. Devotamentul și pasiunea sunt cele care m-au adus în punctul în care sunt astăzi."
+              &quot;Am 25 de ani și lucrez în domeniul înfrumusețării de 5 ani, prestând servicii atat pentru bărbați
+              cât și pentru femei. Am participat de-a lungul carierei mele la numeroase seminarii, punând calitatea pe
+              primul loc în fața clienților. Devotamentul și pasiunea sunt cele care m-au adus în punctul în care sunt
+              astăzi.&quot;
             </p>
             <SignatureImage img={signature2} />
           </div>
@@ -97,9 +98,9 @@ const About = () => {
           <div className="max-md:px-6 max-md:mt-2 md:pl-14">
             <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Fahed Twit</h4>
             <p className="opacity-60 mb-4">
-              "25 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat, învățat
-              și m-am autodepasit, dar călătoria cunoașterii nu se va opri prea curând. Îmi propun sa aduc un nou stil
-              in domeniu, sa dau o notă de originalite muncii mele."
+              &quot;25 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat,
+              învățat și m-am autodepasit, dar călătoria cunoașterii nu se va opri prea curând. Îmi propun sa aduc un
+              nou stil in domeniu, sa dau o notă de originalite muncii mele.&quot;
             </p>
             <SignatureImage img={signature1} />
           </div>

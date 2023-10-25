@@ -6,15 +6,15 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import { BsInstagram, BsStarFill } from 'react-icons/bs'
 
 import gallery_img1 from 'public/assets/gallery/gallery1.jpg'
-import gallery_img3 from 'public/assets/gallery/gallery3.JPG'
+import gallery_img3 from 'public/assets/gallery/gallery3.jpg'
 import gallery_img4 from 'public/assets/gallery/gallery4.jpg'
 import gallery_img5 from 'public/assets/gallery/gallery5.jpg'
-import gallery_img6 from 'public/assets/gallery/gallery6.JPG'
+import gallery_img6 from 'public/assets/gallery/gallery6.jpg'
 import gallery_img7 from 'public/assets/gallery/gallery7.jpg'
 import gallery_img8 from 'public/assets/gallery/gallery8.jpg'
-import gallery_img9 from 'public/assets/gallery/gallery9.JPG'
+import gallery_img9 from 'public/assets/gallery/gallery9.jpg'
 import gallery_img10 from 'public/assets/gallery/gallery10.jpg'
-import gallery_img11 from 'public/assets/gallery/gallery11.JPG'
+import gallery_img11 from 'public/assets/gallery/gallery11.jpg'
 import gallery_img12 from 'public/assets/gallery/gallery12.jpg'
 import gallery_img13 from 'public/assets/gallery/gallery13.jpg'
 
@@ -62,6 +62,8 @@ const Carousel = ({ children, autoplay = true, autoplayInterval = 4000 }) => {
     const slideInterval = setInterval(next, autoplayInterval)
 
     return () => clearInterval(slideInterval)
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index])
 
   return (

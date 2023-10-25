@@ -58,13 +58,12 @@ const MenuLink = ({ children, href }) => (
 const Navbar = () => {
   const [active, setMenuActive] = useState(false)
 
-  const handleWindowResize = () => {
-    if (window.innerWidth > 640 && active === true) {
-      setMenuActive(false)
-    }
-  }
-
   useEffect(() => {
+    const handleWindowResize = () => {
+      if (window.innerWidth > 640 && active === true) {
+        setMenuActive(false)
+      }
+    }
     window.addEventListener('resize', handleWindowResize)
 
     return () => window.removeEventListener('resize', handleWindowResize)

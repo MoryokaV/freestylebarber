@@ -38,9 +38,9 @@ export default function Hero() {
       <div className="flex flex-col items-start justify-center sm:w-5/6 md:w-1/2 mx-auto">
         <h1 className="font-bold text-5xl uppercase mb-4 leading-tight">CREEAZĂ-ȚI PROPRIUL STIL ALĂTURI DE NOI</h1>
         <p className="mb-6">
-          Un barber shop <strong>diferit</strong>. Denumirea <em>"Freestyle Barber"</em> ne caracterizează perfect prin
-          stilul nostru aparte de lucru. Atenția la detalii conduce către rezultate remarcabile, făcându-i pe clienții
-          noștrii să iasă în evidență.
+          Un barber shop <strong>diferit</strong>. Denumirea <em>&quot;Freestyle Barber&quot;</em> ne caracterizează
+          perfect prin stilul nostru aparte de lucru. Atenția la detalii conduce către rezultate remarcabile, făcându-i
+          pe clienții noștrii să iasă în evidență.
         </p>
         <div className="flex justify-between gap-4">
           <Link href="#contact">

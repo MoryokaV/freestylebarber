@@ -4,6 +4,7 @@ const nextConfig = {
   distDir: 'dist',
   reactStrictMode: true,
   trailingSlash: true,
+  assetPrefix: './',
   images: {
     unoptimized: true
   }
