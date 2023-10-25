@@ -16,6 +16,7 @@ import gallery_img9 from 'public/assets/gallery/gallery9.JPG'
 import gallery_img10 from 'public/assets/gallery/gallery10.jpg'
 import gallery_img11 from 'public/assets/gallery/gallery11.JPG'
 import gallery_img12 from 'public/assets/gallery/gallery12.jpg'
+import gallery_img13 from 'public/assets/gallery/gallery13.jpg'
 
 import 'react-photo-view/dist/react-photo-view.css'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
@@ -34,7 +35,8 @@ const slides = [
   gallery_img9,
   gallery_img10,
   gallery_img11,
-  gallery_img12
+  gallery_img12,
+  gallery_img13
 ]
 
 const CarouselButton = ({ children, onClick }) => {

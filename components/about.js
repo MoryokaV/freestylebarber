@@ -7,6 +7,7 @@ import avatar1 from '../public/assets/fahed.jpg'
 import avatar2 from '../public/assets/elena.jpg'
 import signature1 from '../public/assets/signature1.png'
 import signature2 from '../public/assets/signature2.png'
+import { PhotoProvider, PhotoView } from 'react-photo-view'
 
 const SignatureImage = ({ img }) => <Image src={img} alt="barber signature" width="75" className="opacity-80" />
 
@@ -31,8 +32,14 @@ const About = () => {
               domnișoarelor.
             </p>
           </div>
-          <Image src={hero_bg1} className="col-span-1" alt="about-img" />
-          <Image src={hero_bg2} className="col-span-1" alt="about-img" />
+          <PhotoProvider>
+            <PhotoView src={hero_bg1.src} key={1}>
+              <Image src={hero_bg1} key={1} className="col-span-1" alt="about-img" />
+            </PhotoView>
+            <PhotoView src={hero_bg2.src} key={2}>
+              <Image src={hero_bg2} key={2} className="col-span-1" alt="about-img" />
+            </PhotoView>
+          </PhotoProvider>
           <div className="col-span-2">
             <h6 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Te așteptăm</h6>
             <h4 className="tracking-wide font-bold text-xl uppercase mb-4">Program de lurcu</h4>
