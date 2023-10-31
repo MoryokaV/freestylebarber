@@ -44,6 +44,7 @@ const CarouselButton = ({ children, onClick }) => {
     <button
       className="p-[0.4rem] pointer-events-auto rounded-full shadow bg-white opacity-40 hover:opacity-60 transition text-gray-800"
       onClick={onClick}
+      aria-label="carousel next/prev button"
     >
       {children}
     </button>
@@ -98,7 +99,7 @@ const Carousel = ({ children, autoplay = true, autoplayInterval = 4000 }) => {
 
 const Gallery = () => {
   return (
-    <section className="max-w-xl mx-auto px-8 pb-6">
+    <section className="max-w-xl mx-auto px-6 pb-6">
       <SectionTitle title="STILUL TĂU" width="w-16" />
 
       <div className="flex items-center justify-center mb-4 gap-2">
@@ -126,7 +127,13 @@ const Gallery = () => {
         <Carousel>
           {slides.map((slide, index) => (
             <PhotoView src={slide.src} key={index}>
-              <NextImage src={slide} alt={`gallery image ${index}`} key={index} style={{ objectFit: 'contain' }} loading="eager" />
+              <NextImage
+                src={slide}
+                alt={`gallery image ${index}`}
+                key={index}
+                style={{ objectFit: 'contain' }}
+                loading="eager"
+              />
             </PhotoView>
           ))}
         </Carousel>

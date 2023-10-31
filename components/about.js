@@ -17,13 +17,13 @@ const ProfilePicture = ({ img }) => (
 
 const About = () => {
   return (
-    <section id="about" className="w-100 bg-bodyBgAccent px-8 py-6">
+    <section id="about" className="w-100 bg-bodyBgAccent px-6 py-6">
       <div className="max-w-6xl mx-auto">
         <SectionTitle title="Despre noi" width="w-14" />
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 w-full items-start justify-start gap-4 mb-12">
           <div className="col-span-2">
-            <h6 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Bine ai venit!</h6>
+            <h3 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Bine ai venit!</h3>
             <h4 className="tracking-wide font-bold text-xl uppercase mb-4">Noi suntem Freestyle Barber E/F</h4>
             <p className="opacity-70">
               Dedicat atât pentru <em>&quot;el&quot;</em> cât și pentru <em>&quot;ea&quot;</em>. Căutăm să fim mereu în
@@ -41,7 +41,7 @@ const About = () => {
             </PhotoView>
           </PhotoProvider>
           <div className="col-span-2">
-            <h6 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Te așteptăm</h6>
+            <h3 className="text-efGreenBright tracking-widest font-medium text-lg mb-1">Te așteptăm</h3>
             <h4 className="tracking-wide font-bold text-xl uppercase mb-4">Program de lurcu</h4>
             <div className="flex flex-col gap-1">
               <div className="flex justify-between">
@@ -83,7 +83,7 @@ const About = () => {
         <div className="max-sm:max-w-[400px] col-span-1 md:col-span-2 p-3 shadow max-w-3xl flex max-md:flex-col max-md:items-center bg-white/5 rounded-full gap-6 max-md:rounded-bl-none rounded-br-none">
           <ProfilePicture img={avatar2} />
           <div className="max-sm:px-6 max-md:mb-2 md:pr-14">
-            <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Elena Țocu</h4>
+            <h3 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Elena Țocu</h3>
             <p className="opacity-60 mb-4">
               &quot;Am 25 de ani și lucrez în domeniul înfrumusețării de 5 ani, prestând servicii atat pentru bărbați
               cât și pentru femei. Am participat de-a lungul carierei mele la numeroase seminarii, punând calitatea pe
@@ -96,7 +96,7 @@ const About = () => {
 
         <div className="max-sm:max-w-[400px] col-span-1 md:col-span-2 p-3 shadow max-w-3xl flex max-md:flex-col sm:max-md:justify-end max-md:items-center bg-white/5 rounded-full gap-6 max-md:rounded-tr-none rounded-tl-none">
           <div className="max-md:px-6 max-md:mt-2 md:pl-14">
-            <h4 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Fahed Twit</h4>
+            <h3 className="text-efGreenBright font-bold mb-2 tracking-wider text-xl">Fahed Twit</h3>
             <p className="opacity-60 mb-4">
               &quot;25 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat,
               învățat și m-am autodepasit, dar călătoria cunoașterii nu se va opri prea curând. Îmi propun sa aduc un

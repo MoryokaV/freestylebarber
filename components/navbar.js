@@ -50,7 +50,7 @@ const Menu = ({ active }) => (
 )
 
 const MenuLink = ({ children, href }) => (
-  <Link href={href} className="hover:bg-zinc-700 text-gray-300 block px-4 py-2 text-sm">
+  <Link href={href} className="hover:bg-zinc-700 text-gray-300 block px-4 py-2 text-sm" role="menuitem">
     {children}
   </Link>
 )

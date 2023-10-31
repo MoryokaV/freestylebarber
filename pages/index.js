@@ -22,7 +22,7 @@ export default function Home() {
       <DefaultSeo
         title="Freestyle Barber EF | Salon frizerie Brăila"
         description="Un barber shop diferit. Pentru 'el' și pentru 'ea'. Experiență de 5 stele la cele mai mici prețuri din oraș."
-        canonical="freestylebarber-ef.ro"
+        canonical="https://freestylebarber-ef.ro/"
         openGraph={{
           type: 'website',
           locale: 'ro-RO',

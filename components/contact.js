@@ -10,6 +10,7 @@ const Contact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="Google Maps"
           style={{
             width: '100%',
             height: '550px',
@@ -55,13 +56,21 @@ const Contact = () => {
             <div className="grid lg:grid-cols-2 max-sm:gap-5 gap-3">
               <div className="flex items-center sm:justify-center gap-2 text-zinc-200 flex-wrap" target="_blank">
                 <p className="text-efAmber">Freestyle Barber EF &bull; </p>
-                <Link href="https://www.instagram.com/freestyle_barber.ef" target="_blank">
+                <Link
+                  href="https://www.instagram.com/freestyle_barber.ef"
+                  target="_blank"
+                  aria-label="Instagram account link"
+                >
                   <AiOutlineInstagram className="transition w-7 h-7 hover:text-efGreenBright" />
                 </Link>
-                <Link href="https://www.facebook.com/profile.php?id=61551067448122" target="_blank">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61551067448122"
+                  target="_blank"
+                  aria-label="Facebook account link"
+                >
                   <AiOutlineFacebook className="transition w-7 h-7 hover:text-efGreenBright" />
                 </Link>
-                <Link href="https://maps.app.goo.gl/SWh7aA76JpEzasUS6" target="_blank">
+                <Link href="https://maps.app.goo.gl/SWh7aA76JpEzasUS6" target="_blank" aria-label="Google account link">
                   <AiOutlineGoogle className="transition w-7 h-7 hover:text-efGreenBright" />
                 </Link>
               </div>
