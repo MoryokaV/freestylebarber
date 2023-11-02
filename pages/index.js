@@ -6,7 +6,7 @@ import Offer from 'components/offer'
 import Gallery from 'components/gallery'
 import Footer from 'components/footer'
 import Contact from 'components/contact'
-import { DefaultSeo } from 'next-seo'
+import { NextSeo } from 'next-seo'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>
 
-      <DefaultSeo
+      <NextSeo
         title="Freestyle Barber EF | Salon frizerie Brăila"
         description="Un barber shop diferit. Pentru 'el' și pentru 'ea'. Experiență de 5 stele la cele mai mici prețuri din oraș."
         canonical="https://freestylebarber-ef.ro/"
