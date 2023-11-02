@@ -17,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="google-site-verification" content="liEgmfIItzc_PANyEcT1Z0vdL7LrsFwSnCD3w5Xu8n4" />
       </Head>
 
       <NextSeo
