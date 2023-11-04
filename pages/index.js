@@ -17,12 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="preload" fetchpriority="high" as="image" href="/assets/hero-img4.webp" type="image/webp"/>
         <meta name="google-site-verification" content="liEgmfIItzc_PANyEcT1Z0vdL7LrsFwSnCD3w5Xu8n4" />
       </Head>
 
       <NextSeo
         title="Freestyle Barber EF | Salon frizerie Brăila"
-        description="Un barber shop diferit. Pentru 'el' și pentru 'ea'. Experiență de 5 stele la cele mai mici prețuri din oraș."
+        description="Un barber shop diferit. Frizeria pentru 'el' și pentru 'ea'. Experiență de 5 stele la cele mai mici prețuri din oraș."
         openGraph={{
           type: 'website',
           locale: 'ro-RO',

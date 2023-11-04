@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import hero_bg1 from '../public/assets/hero-img2.jpg'
-import hero_bg2 from '../public/assets/hero-img4.jpg'
-import hero_bg3 from '../public/assets/hero-img5.jpg'
+import hero_bg1 from '../public/assets/hero-img2.webp'
+import hero_bg2 from '../public/assets/hero-img4.webp'
+import hero_bg3 from '../public/assets/hero-img5.webp'
 import { useState, useEffect } from 'react'
 
 const StackedImage = ({ src, className }) => {
@@ -12,6 +12,7 @@ const StackedImage = ({ src, className }) => {
       src={src}
       className={`absolute max-h-[500px] left-1/2 -translate-x-1/2 mx-auto border-zinc-200 border-4 w-[200px] sm:w-[320px] md:w-[350px] ${className}`}
       alt="ef image"
+      loading="eager"
     />
   )
 }

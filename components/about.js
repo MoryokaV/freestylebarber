@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import SectionTitle from './section_title'
 
-import hero_bg1 from '../public/assets/hero-img3.jpg'
-import hero_bg2 from '../public/assets/hero-img6.jpg'
-import avatar1 from '../public/assets/fahed.jpg'
-import avatar2 from '../public/assets/elena.jpg'
+import hero_bg1 from '../public/assets/hero-img3.webp'
+import hero_bg2 from '../public/assets/hero-img6.webp'
+import avatar1 from '../public/assets/fahed.webp'
+import avatar2 from '../public/assets/elena.webp'
 import signature1 from '../public/assets/signature1.png'
 import signature2 from '../public/assets/signature2.png'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
@@ -29,7 +29,7 @@ const About = () => {
               Dedicat atât pentru <em>&quot;el&quot;</em> cât și pentru <em>&quot;ea&quot;</em>. Căutăm să fim mereu în
               pas cu ultimele tendințe prin gama noastră largă de servicii. Te așteptăm în salonul nostru modern pentru
               orice tip de tunosare. Chiar dacă suntem un <em>barber shop</em>, satisfacem toate cerințele doamnelor și
-              domnișoarelor.
+              domnișoarelor. Cu timpul, suntem convinși că vom ajunge cea mai bună frizerie din Brăila.
             </p>
           </div>
           <PhotoProvider>
@@ -100,7 +100,7 @@ const About = () => {
             <p className="opacity-60 mb-4">
               &quot;25 de ani, dintre care 3 dedicați 100% meseriei mele. Am parcurs un drum lung în care am evoluat,
               învățat și m-am autodepasit, dar călătoria cunoașterii nu se va opri prea curând. Îmi propun sa aduc un
-              nou stil in domeniu, sa dau o notă de originalite muncii mele.&quot;
+              nou stil in domeniu, sa dau o notă de originalite muncii mele prin frizeria pe care am deschis-o.&quot;
             </p>
             <SignatureImage img={signature1} />
           </div>
