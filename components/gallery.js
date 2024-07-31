@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import { BsInstagram, BsStarFill } from 'react-icons/bs'
 
+import gallery_img0 from 'public/assets/gallery/gallery0.jpg'
 import gallery_img1 from 'public/assets/gallery/gallery1.webp'
 import gallery_img3 from 'public/assets/gallery/gallery3.webp'
 import gallery_img4 from 'public/assets/gallery/gallery4.webp'
@@ -25,6 +26,7 @@ const reviewsUrl =
   'https://www.google.ro/maps/place/Freestyle+Barber+EF/@45.2671808,27.9696536,17z/data=!4m8!3m7!1s0x40b72971188fe8d5:0x453e45916ea0d0cc!8m2!3d45.2671808!4d27.9722285!9m1!1b1!16s%2Fg%2F11vbklgdt2?entry=ttu'
 
 const slides = [
+  gallery_img0,
   gallery_img1,
   gallery_img3,
   gallery_img4,

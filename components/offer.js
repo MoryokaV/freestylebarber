@@ -18,7 +18,7 @@ const Offer = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div>
-          <Item title="Tuns bărbați" price="50.00" description="Stilul tău marcat de atenție la detalii" />
+          <Item title="Tuns bărbați" price="60.00" description="Stilul tău marcat de atenție la detalii" />
           <Item title="Tuns copii" price="40.00" description="În pas cu ultimele tendințe" />
           <Item title="Pensat" price="25.00" description="Recapătăți forma sprăncenelor" />
           <Item title="Spălat capilar" price="15.00" description="Întreținerea unui scalp sănătos" />
