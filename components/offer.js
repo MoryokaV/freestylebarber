@@ -26,13 +26,13 @@ const Offer = () => {
         <div>
           <Item title="Tuns barbă" price="20.00" description="Redă contur feței" />
           <Item title="Vopsit barbă" price="20.00" description="Cu produse de cea mai înaltă calitate" />
-          <Item title="Șuvițe" price="150 - 200" description="Materiale premium și proceduri de top" />
+          <Item title="Șuvițe" price="200" description="Materiale premium și proceduri de top" />
           <Item title="Tuns damă" price="50.00" description="Volum, formă, stil" />
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1">
           <Item title="Spălat damă" price="45.00" description="Pentru îngrijirea atentă a părului tău" />
-          <Item title="Aranjat" price="40.00" description="Periat si uscat cu feon" />
-          <Item title="Vopsit balayage" price="200/250" description="Păr damă mediu/lung" />
+          <Item title="Aranjat" price="100/150" description="Periat si uscat cu feon" />
+          <Item title="Vopsit balayage" price="500/600" description="Păr damă mediu/lung" />
           <Item title="Coafat" price="100/150/200" description="Păr damă scurt/mediu/lung" />
         </div>
       </div>
