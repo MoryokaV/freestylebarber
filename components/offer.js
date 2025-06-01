@@ -19,18 +19,18 @@ const Offer = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div>
           <Item title="Tuns bărbați" price="60.00" description="Stilul tău marcat de atenție la detalii" />
-          <Item title="Tuns copii" price="40.00" description="În pas cu ultimele tendințe" />
+          <Item title="Tuns copii" price="50.00" description="În pas cu ultimele tendințe" />
           <Item title="Pensat" price="25.00" description="Recapătăți forma sprăncenelor" />
           <Item title="Spălat capilar" price="15.00" description="Întreținerea unui scalp sănătos" />
         </div>
         <div>
           <Item title="Tuns barbă" price="20.00" description="Redă contur feței" />
           <Item title="Vopsit barbă" price="20.00" description="Cu produse de cea mai înaltă calitate" />
-          <Item title="Șuvițe" price="80.00" description="Materiale premium și proceduri de top" />
-          <Item title="Tuns damă" price="45.00" description="Volum, formă, stil" />
+          <Item title="Șuvițe" price="150 - 200" description="Materiale premium și proceduri de top" />
+          <Item title="Tuns damă" price="50.00" description="Volum, formă, stil" />
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1">
-          <Item title="Spălat damă" price="40.00" description="Pentru îngrijirea atentă a părului tău" />
+          <Item title="Spălat damă" price="45.00" description="Pentru îngrijirea atentă a părului tău" />
           <Item title="Aranjat" price="40.00" description="Periat si uscat cu feon" />
           <Item title="Vopsit balayage" price="200/250" description="Păr damă mediu/lung" />
           <Item title="Coafat" price="100/150/200" description="Păr damă scurt/mediu/lung" />
